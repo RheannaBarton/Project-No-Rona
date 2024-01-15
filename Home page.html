@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #a14d55;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 2px;
+  text-align: left;
+  background: none;
+}
+
+h1 {
+  font-size: 50px;
+  text-shadow: 0 0 5px #FF0000;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  font-size: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #8B0000;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+h2 {
+  color: #b53542;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0px;
+  left: 16px;
+  font-size: 18px;
+  background-color: white;
+  width: 250px;
+  display: block;
+  padding: 5px 5px;
+  text-align: left;
+  text-transform: uppercase;
+  color: black;
+}
+
+/* image */
+.img {
+  width: 100%;
+  padding: 0px;
+}
+
+  
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+ position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #8B0000;
+  color: white;
+  text-align: center;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="container">
+  <img src="https://drexel.edu/news/~/media/Drexel/Core-Site-Group/News/Images/COVID19image/covid19image_16x9.jpg"alt="image of covid 19" style="width:100%;height:400px;">
+  <div class="centered"><h1><b>PROJECT N<img src="https://img.freepik.com/premium-vector/coronavirus-2019-ncov-vector-icon-coronavirus-covid-19-ncp-virus-epidemic-outbreak-stop-sign_186921-411.jpg?w=360" alt="image of covid 19"  style="width:50px;height:50px;"> RONA</h2> </b></div>
+</div>
+</div>
+
+<div class="topnav">
+  <a href="home page.html">Home</a>
+  <a href="About us.html">About Us</a>
+  <a href="Contact us.html">Contact Us</a>
+  
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <div class="container">
+      <h2> Home</h2>
+        <img src="https://static.wixstatic.com/media/4c5cae_aab8c1956b2542b4b2a653e63716df07~mv2.png/v1/fill/w_640,h_456,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4c5cae_aab8c1956b2542b4b2a653e63716df07~mv2.png" alt="image of covid 19" style="width:100%;max-width:980px;height:400px;">
+       <div class="bottomleft">Coronavirus disease (COVID-19)</div>
+      </div>
+  <p style="color:#a14750;"><b><u> OVERVIEW </u></b></p>
+      <p> The Coronavirus Disease (2019), also referred to as COVID-19, is an infectious disease that affects the lungs and airways as a result of the SARS-CoV-2 virus. This deadly virus caused a global pandemic in 2019 which more than six million people have died from. It first appeared in Wuhan, China, in December 2019, in mostly seafood and live animal markets. On January 30, 2020, the World Health Organization (WHO) declared the outbreak a public health emergency of international concern. Jamaica recorded its first COVID-19 case on March 10, 2020.</p>
+       <p>The virus spreads from person to person in close contact with each other through droplets released through coughing, talking or sneezing. When these infectous droplets come in direct contact with the individual's eyes, nose or mouth, then the virus is contracted.
+</p>
+<p> The spreading of the virus may also be as a result of poor ventilation and crowded indoor settings through airborne transmission (aerosols remain suspended in the air). </p>
+<p>Though everyone is at risk, older people and those with underlying medical problems such as chronic respiratory disease, obesity, cancer, heart disease and high blood pressure have a higher chance of developing severe illnesses</p>
+    </div>
+    <div class="card">
+       <p style="color:#a14750;"><b><u> SYMPTOMS AND PREVENTIONS </u></b></p>
+         <img src="https://images.ctfassets.net/pxcfulgsd9e2/articleImage160692/bab314f288123a1eedf3759bd17d0225/Top-5-Symptoms-of-COVID-19-HN2387-iStock-1217199413-Sized.png?f=top&fit=fill&fm=png&h=786&q=85&w=1396" alt="covid 19 symptoms" style="width:100%;max-width:980px;height:250px;">
+         <h4>Symptoms</h4>
+      <p>The incubation period is on average 5-6 days but can range from 1-14 days. The symptoms range from mild to severe, though some individuals may be asymptomatic. The most common symptoms are fever, fatigue, loss of taste and smell and respiratory symptoms such as coughing, a sore throat and shortness of breath. In severe cases pneumonia, organ failure and death may occur.</p>
+   
+     
+      <h4> Prevention Tips</h4>
+      <img src="https://sites.manchester.ac.uk/covid19-national-project/wp-content/uploads/sites/276/2022/09/prevention-measures.jpg" alt="covid 19 symptoms" style="width:100%;max-width:980px;height:250px;">
+     <p>Washing hands regularly with soap and water as well as wearing high quality masks aid in preventing the transmission of the disease. In addition to this disinfecting frequently touched surfaces and applying social distance protocols (standing two arm lengths away) and taking the vaccine against COVID-19 are also ways in which one can prevent the transmission of this infection disease.</p> 
+    </div>
+    </div>
+  
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 style="color:#ad0314;">Safety is Better than Disaster!!</h2>
+    <div class="dropdown">
+  <img src="https://www.un.org/sites/un2.un.org/files/field/image/1583952355.1997.jpg" alt="Cinque Terre" width="200" height="200">
+  <div class="dropdown-content">
+  <div class="desc">Covid 19 virus</div>
+   </div>
+  </div>
+ </div>
+    <div class="card">
+     <div class="dropdown">
+     <img src="https://www.paho.org/sites/default/files/styles/max_1500x1500/public/2021-03/vaccination-caribbean.-1500x850.jpg?itok=PIIbEFQC" alt="Vaccine in Jamaica" width="200" height="200">
+      <div class="dropdown-content">
+  <div class="desc">Jamaica becomes first country in the Caribbean to receive COVID-19 vaccines through the COVAX Facility</div>     
+    </div>
+</div>
+</div>
+    
+    <div class="card">
+    
+       <div class="dropdown">
+     <img src="https://imengine.public.prod.jam.navigacloud.com/?uuid=5B3EF47B-E188-44C9-993E-D0BB479F5ABC&function=cover&type=preview&source=false&width=504&height=332&mrf-size=m" alt="cases in Jamaica" width="200" height="200">
+      <div class="dropdown-content">
+  <div class="desc">Number of cases in each parish as of May 4, 2020</div>     
+    </div>
+  </div>
+</div> 
+
+  <div class="footer">
+  <p>Project No Rona</p>
+</div>
+
+
+</body>
+</html>
+

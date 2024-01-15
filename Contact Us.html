@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding:20px;
+  background-image: url(https://www.networkforphl.org/wp-content/uploads/2020/03/iStock-1208953647-1238x0-c-default-q40.jpg);
+  text-align: center;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 2px;
+  text-align: left;
+  background: none;
+}
+
+
+
+h1 {
+  font-size: 50px;
+  text-shadow: 0 0 5px #FF0000;
+}
+.overlay {
+width: 100%;
+height: 400px;
+position: relative;
+}
+.gradient {
+height: 100%;
+width: 100%;
+background-image:
+linear-gradient(to top, #6b0c0c, #e3160b, #851416, #189bcc); 
+opacity: 0.4;
+position: absolute;
+top:0;
+left:0;
+}
+
+.img {
+height: 100%;
+width:100%;
+object-fit: cover;
+}
+
+ 
+
+.centered {
+  position: absolute;
+  top: 50%;
+  font-size: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #8B0000;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+h2 {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* image */
+.img {
+  width: 100%;
+  padding: 0px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: left;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0px;
+  left: 16px;
+  font-size: 18px;
+  background-color: white;
+  width: 250px;
+  display: block;
+  padding: 5px 5px;
+  text-align: left;
+  text-transform: uppercase;
+  color: black;
+}
+
+  
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+p.text {
+  text-align: right;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5px
+}
+/* Footer */
+.footer {
+ position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #8B0000;
+  color: white;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+
+  <div class="header">
+  <div class="container">
+  <div class= "overlay">
+  <div class= "gradient"></div>
+  
+  <img src="https://media.istockphoto.com/id/1311934969/photo/contact-us.jpg?s=612x612&w=0&k=20&c=_vmYyAX0aFi-sHH8eYS-tLLNfs1ZWXnNB8M7_KWwhgg="style="width:100%;height:400px;">
+  <div class="centered"><b>Contact Us</b></div>
+ </div>
+ </div>
+
+  
+   
+ 
+
+<div class="topnav">
+  <a href="Home page.html">Home</a>
+  <a href="About us.html">About Us</a>
+  <a href="Contact Us.html">Contact Us</a>
+</div>
+
+<div class="card">
+        <h2 style="color:#a14750;"><b><u> WE ARE HERE FOR YOU!! </u></b></h2>
+  <div class="dropdown">
+      <img src="https://i0.wp.com/sundayworld-prod-s3-bucket.s3.eu-west-1.amazonaws.com/wp-content/uploads/2023/09/27095154/355246062_572342805064396_6549594339884136438_n.jpg?resize=696%2C726&ssl=1" alt="Chief Investigative Officer" style="width:250px;height:250px;">
+      <div class="dropdown-content">
+  <div class="desc"><u>Chief Investigative Officer</u> - Rheanna Barton</div>
+   </div>
+  </div>
+
+       
+       <p>Email: <a href="mailto:rheanna.barton@campioncollege.com">rheanna.barton@campioncollege.com</a></p>
+       <p>Telephone number: (876) 985-0987</p>
+      
+    <p style="color:#a14750;"><b><u> Project No Rona Headquarter</u></b></p>  
+      <p>  50 Whitehall Ave Kingston 8
+
+<p> Kingston
+
+<p>Phone number:  876-905-2682
+      </p>
+        <p style="color:#a14750;"><b><u> Other Locations</u></b></p>  
+        <p><b><u> St. James</u></b></p>
+      <p>  5 Lawrence Lane
+
+<p>Montego Bay
+<p>Phone number:  (876) 905-0972
+
+<p><b><u> Manchester</u></b></p>
+      <p>   5 Manchester Rd
+
+<p> Mandeville
+<p>Phone number:  (876) 905-8972
+
+<p><b><u> St. Catherine</u></b></p>
+      <p>   13 Martin Streetreet 
+<p>   Spanish Town
+<p>Phone number:  (876) 905-3126
+
+  
+   
+      
+    </div>
+      </div>
+  </div>
+ 
+
+<div class="footer">
+  <p>Project No Rona</p>
+</div>
+
+</body>
+</html> 
